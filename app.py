@@ -4,5 +4,7 @@ year = int(input("Please Enter The Year You Are Born:"))
 print(year)
 currentage = 2020 - year
 months = currentage*12
-print("Hello "+name + " You are years %d old " % (currentage))
-print("Hello "+name + " You are months %d old " % (months))
+days = currentage*365
+print("Hello "+name + " You are %d years old " % (currentage))
+print("Hello "+name + " You are %d months old " % (months))
+print("Hello "+name + " You are %d days old " % (days))
